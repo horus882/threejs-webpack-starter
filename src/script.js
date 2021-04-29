@@ -164,8 +164,8 @@ const clock = new THREE.Clock()
 const tick = () =>
 {
 
-    targetX = mouseX * .001
-    targetY = mouseY * .001
+    targetX = mouseX * .002
+    targetY = mouseY * .002
 
     const elapsedTime = clock.getElapsedTime()
 
